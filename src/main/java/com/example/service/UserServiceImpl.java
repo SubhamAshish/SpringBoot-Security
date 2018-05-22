@@ -23,10 +23,5 @@ public class UserServiceImpl implements UserService {
 		
 	}
 
-	@Transactional
-	public void updateLoggedOutStatus(long userLoginMetaId, Timestamp loggedOutDateTime) {
-
-		// while server start up
-	}
-
+	
 }
