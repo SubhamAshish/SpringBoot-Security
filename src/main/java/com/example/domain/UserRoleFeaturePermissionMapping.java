@@ -39,9 +39,7 @@ public class UserRoleFeaturePermissionMapping implements Serializable {
 	@Column(name="updated_by")
 	private String updatedBy;
 
-	/*@Transient
-	private List<RoleFeaturePermissionScheme> roleFeaturePermissionScheme2;
-	*/
+	
 	public Integer getUserRoleFeaturePermissionId() {
 		return userRoleFeaturePermissionId;
 	}
@@ -82,13 +80,6 @@ public class UserRoleFeaturePermissionMapping implements Serializable {
 		this.updatedBy = updatedBy;
 	}
 
-/*	public List<RoleFeaturePermissionScheme> getRoleFeaturePermissionScheme2() {
-		return roleFeaturePermissionScheme2;
-	}
-
-	public void setRoleFeaturePermissionScheme2(List<RoleFeaturePermissionScheme> roleFeaturePermissionScheme2) {
-		this.roleFeaturePermissionScheme2 = roleFeaturePermissionScheme2;
-	}*/
 
 	
 	
