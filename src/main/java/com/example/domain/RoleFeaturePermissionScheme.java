@@ -15,11 +15,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-/**
- * 
- * @author Azaruddin (azaruddin@sdrc.co.in)
- *
- */
+
 @Entity
 @Table(name="role_feature_permission_scheme")
 public class RoleFeaturePermissionScheme implements Serializable {
