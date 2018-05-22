@@ -6,11 +6,7 @@ import java.util.List;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 
-/**
- * 
- * @author Azaruddin(azaruddin@sdrc.co.in)
- *
- */
+
 
 public class UserModel extends User {
 
