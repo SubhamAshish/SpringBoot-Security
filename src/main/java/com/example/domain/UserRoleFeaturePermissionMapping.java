@@ -13,11 +13,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.persistence.Transient;
-/**
- * 
- * @author Azaruddin (azaruddin@sdrc.co.in)
- *
- */
+
 @Entity
 @Table(name="user_role_feature_permission")
 public class UserRoleFeaturePermissionMapping implements Serializable {
